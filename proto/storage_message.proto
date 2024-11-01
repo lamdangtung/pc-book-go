@@ -1,8 +1,7 @@
 syntax = "proto3";
-option go_package = "./pb";
 import "memory_message.proto";
-
-
+option go_package = "github.com/lamdangtung/pc-book-go/pb";
+package lamdangtung.pcbook;
 message Storage{
     enum Driver{
         UNKNOWN = 0;
