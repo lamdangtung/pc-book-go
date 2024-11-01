@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "lamdangtung/sample-grpc";
+option go_package = "github.com/lamdangtung/pc-book";
 message CPU {
     string brand = 1;
     string name = 2;
